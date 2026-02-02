@@ -1,6 +1,6 @@
 {
-  "name": "shourov-fca",
-  "version": "1.0.0",
+  "name": "shourov",
+  "version": "1.0.1",
   "description": "Ultra-advanced Facebook Chat API for Node.js with superior session management, anti-ban mechanisms, and comprehensive bot development features",
   "main": "index.js",
   "types": "index.d.ts",
@@ -46,6 +46,7 @@
     "https-proxy-agent": "^7.0.6",
     "mqtt": "^5.14.1",
     "pino": "^10.1.0",
+    "shourov-fca": "github:MOHAMMAD-SHOUROV/shourov-fca",
     "user-agents": "^1.1.669"
   }
 }

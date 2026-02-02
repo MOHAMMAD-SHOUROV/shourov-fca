@@ -48,7 +48,7 @@ class NeokexAPI extends EventEmitter {
 
   async initialize() {
     try {
-      this.logger.info('🚀 Initializing neokex-fca...');
+      this.logger.info('🚀 Initializing shourov-fca...');
       
       const loginResult = await this.auth.login(this.appState);
       this.currentUserID = loginResult.userId;
