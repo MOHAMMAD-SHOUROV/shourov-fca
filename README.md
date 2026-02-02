@@ -21,7 +21,7 @@
 ## 📦 Installation
 
 ```bash
-npm install neokex-fca
+npm install shourov-fca
 ```
 
 **Requirements:** Node.js v16.0.0 or higher
