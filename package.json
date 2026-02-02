@@ -46,6 +46,7 @@
     "https-proxy-agent": "^7.0.6",
     "mqtt": "^5.14.1",
     "pino": "^10.1.0",
+    "shourov": "github:MOHAMMAD-SHOUROV/shourov-fca#main",
     "shourov-fca": "github:MOHAMMAD-SHOUROV/shourov-fca",
     "user-agents": "^1.1.669"
   }
