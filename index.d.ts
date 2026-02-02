@@ -1,4 +1,4 @@
-declare module 'neokex-fca' {
+declare module 'shourov-fca' {
   export interface AppState {
     key: string;
     value: string;
@@ -138,7 +138,7 @@ declare module 'neokex-fca' {
     error?: string;
   }
 
-  export class NeokexAPI {
+  export class ShourovAPI {
     constructor(appState: AppState[], options?: LoginOptions);
     
     initialize(): Promise<any>;
@@ -206,14 +206,14 @@ declare module 'neokex-fca' {
     emit(event: string, ...args: any[]): boolean;
   }
 
-  export type LoginCallback = (error: Error | null, api: NeokexAPI | null) => void;
+  export type LoginCallback = (error: Error | null, api: ShourovAPI | null) => void;
 
   export interface LoginFunction {
     (credentials: Credentials, callback: LoginCallback): void;
     (credentials: Credentials, options: Partial<LoginOptions>, callback: LoginCallback): void;
-    promises(credentials: Credentials, options?: Partial<LoginOptions>): Promise<NeokexAPI>;
+    promises(credentials: Credentials, options?: Partial<LoginOptions>): Promise<ShourovxAPI>;
   }
 
   export const login: LoginFunction;
-  export { NeokexAPI };
+  export { ShourovAPI };
 }
