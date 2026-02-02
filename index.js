@@ -14,7 +14,7 @@ function login(credentials, options, callback) {
   const appState = credentials.appState;
   const mergedOptions = { ...DEFAULT_OPTIONS, ...options };
 
-  const api = new NeokexAPI(appState, mergedOptions);
+  const api = new ShourovAPI(appState, mergedOptions);
 
   api.initialize()
     .then(() => {
@@ -36,5 +36,5 @@ login.promises = function(credentials, options = {}) {
 
 module.exports = {
   login,
-  NeokexAPI
+  ShourovPI
 };
