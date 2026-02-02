@@ -243,4 +243,4 @@ class NeokexAPI extends EventEmitter {
   }
 }
 
-module.exports = NeokexAPI;
+module.exports = ShourovAPI;
