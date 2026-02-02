@@ -1,4 +1,4 @@
-const NeokexAPI = require('./src/api/api');
+const ShourovAPI = require('./src/api/api');
 const { DEFAULT_OPTIONS } = require('./src/utils/constants');
 
 function login(credentials, options, callback) {
