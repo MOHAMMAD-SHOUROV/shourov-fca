@@ -36,5 +36,5 @@ login.promises = function(credentials, options = {}) {
 
 module.exports = {
   login,
-  ShourovPI
+  ShourovAPI
 };

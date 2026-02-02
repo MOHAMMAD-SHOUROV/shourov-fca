@@ -53,7 +53,7 @@ class RateLimitError extends ShourovError {
 }
 
 module.exports = {
-  NeokexError,
+  ShourovError,
   LoginError,
   CheckpointError,
   AccountLockedError,
