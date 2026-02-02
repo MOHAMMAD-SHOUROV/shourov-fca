@@ -1,0 +1,51 @@
+{
+  "name": "neokex-fca",
+  "version": "1.0.0",
+  "description": "Ultra-advanced Facebook Chat API for Node.js with superior session management, anti-ban mechanisms, and comprehensive bot development features",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "src/",
+    "index.js",
+    "index.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {},
+  "keywords": [
+    "facebook",
+    "messenger",
+    "chat",
+    "api",
+    "bot",
+    "fca",
+    "facebook-chat-api",
+    "messenger-bot",
+    "neokex",
+    "automation"
+  ],
+  "author": "neokex",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neokex/neokex-fca.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neokex/neokex-fca/issues"
+  },
+  "homepage": "https://github.com/neokex/neokex-fca#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bluebird": "^3.7.2",
+    "cheerio": "^1.1.2",
+    "eventemitter3": "^5.0.1",
+    "form-data": "^4.0.4",
+    "https-proxy-agent": "^7.0.6",
+    "mqtt": "^5.14.1",
+    "pino": "^10.1.0",
+    "user-agents": "^1.1.669"
+  }
+}
