@@ -1,22 +1,8 @@
-# neokex-fca
-
-<div align="center">
-
-**The Most Advanced Facebook Chat API for Node.js**
-
-[![npm version](https://img.shields.io/npm/v/neokex-fca.svg)](https://www.npmjs.com/package/neokex-fca)
-[![Downloads](https://img.shields.io/npm/dm/neokex-fca.svg)](https://www.npmjs.com/package/neokex-fca)
-[![License](https://img.shields.io/npm/l/neokex-fca.svg)](LICENSE)
-
-*Build powerful Facebook Messenger bots with unmatched stability and features*
-
-**Created by NeoKEX**
-
-</div>
+# shourov-fca
 
 ---
 
-## ✨ Why neokex-fca?
+## ✨ Whyshourov-fca?
 
 **neokex-fca** is the most advanced, production-ready Facebook Chat API library available. Built from the ground up with modern architecture and enterprise-grade features, it surpasses all existing solutions.
 
@@ -334,7 +320,7 @@ api.listenMqtt((err, event) => {
 
 ## 🛡️ Advanced Anti-Ban Protection
 
-**neokex-fca** includes the most sophisticated anti-ban system of any Facebook Chat API. Our multi-layered protection ensures your accounts stay safe while maintaining high performance.
+**shourov-fca** includes the most sophisticated anti-ban system of any Facebook Chat API. Our multi-layered protection ensures your accounts stay safe while maintaining high performance.
 
 ### 🔐 Built-in Protection Features
 
@@ -527,7 +513,7 @@ If you see these, reduce activity immediately:
 
 ## 📊 Comparison with Other Libraries
 
-| Feature | neokex-fca | ws3-fca | fca-unofficial |
+| Feature | shourov-fca | ws3-fca | fca-unofficial |
 |---------|-----------|---------|----------------|
 | No Auto-Logout | ✅ | ⚠️ | ❌ |
 | Suspend Protection | ✅ | ⚠️ | ❌ |
@@ -569,13 +555,3 @@ Contributions are welcome! Please open an issue or submit a pull request.
 - ⭐ Star the repo if you find it useful!
 
 ---
-
-<div align="center">
-
-**Created by NeoKEX**
-
-*The most advanced Facebook Chat API library for modern bot development*
-
-[GitHub](https://github.com/neokex/neokex-fca) • [npm](https://npmjs.com/package/neokex-fca)
-
-</div>
