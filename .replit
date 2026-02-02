@@ -15,10 +15,10 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "workflow.run"
-args = "neokex-fca"
+args = "shourov-fca"
 
 [[workflows.workflow]]
-name = "neokex-fca"
+name = "shourov-fca"
 author = "agent"
 
 [workflows.workflow.metadata]
