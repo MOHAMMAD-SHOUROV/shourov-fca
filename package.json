@@ -1,5 +1,5 @@
 {
-  "name": "neokex-fca",
+  "name": "shourov-fca",
   "version": "1.0.0",
   "description": "Ultra-advanced Facebook Chat API for Node.js with superior session management, anti-ban mechanisms, and comprehensive bot development features",
   "main": "index.js",
@@ -21,22 +21,22 @@
     "fca",
     "facebook-chat-api",
     "messenger-bot",
-    "neokex",
+    "shourov",
     "automation"
   ],
-  "author": "neokex",
+  "author": "shourov",
   "license": "MIT",
   "engines": {
     "node": ">=16.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/neokex/neokex-fca.git"
+    "url": "https://github.com/MOHAMMAD-SHOUROV/shourov-fca.git"
   },
   "bugs": {
-    "url": "https://github.com/neokex/neokex-fca/issues"
+    "url": "https://github.com/MOHAMMAD-SHOUROV/shourov-fca/issues"
   },
-  "homepage": "https://github.com/neokex/neokex-fca#readme",
+  "homepage": "https://github.com/MOHAMMAD-SHOUROV/shourov-fca#readme",
   "dependencies": {
     "axios": "^1.13.2",
     "bluebird": "^3.7.2",
