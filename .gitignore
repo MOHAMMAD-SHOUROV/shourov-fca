@@ -26,6 +26,4 @@ dist/
 build/
 temp/
 tmp/
-replit.md
-.replit
 replit.nix

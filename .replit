@@ -26,4 +26,4 @@ outputType = "console"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "node examples/advanced-bot.js"
+args = "node -e \"const pkg = require('./package.json'); console.log(pkg.name + ' v' + pkg.version + ' loaded successfully'); const m = require('./index.js'); console.log('Exports:', Object.keys(m));\""
