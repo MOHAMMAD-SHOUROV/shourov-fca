@@ -13,7 +13,7 @@ const CheckpointDetector = require('../utils/checkpointDetector');
 const { DEFAULT_OPTIONS } = require('../utils/constants');
 const { generateUserAgent } = require('../utils/helpers');
 
-class NeokexAPI extends EventEmitter {
+class ShourovAPI extends EventEmitter {
   constructor(appState, options = {}) {
     super();
     
@@ -243,4 +243,4 @@ class NeokexAPI extends EventEmitter {
   }
 }
 
-module.exports = NeokexAPI;
+module.exports = ShourovAPI;

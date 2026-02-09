@@ -4,7 +4,7 @@
 
 ## ✨ Whyshourov-fca?
 
-**neokex-fca** is the most advanced, production-ready Facebook Chat API library available. Built from the ground up with modern architecture and enterprise-grade features, it surpasses all existing solutions.
+**shourov-fca** is the most advanced, production-ready Facebook Chat API library available. Built from the ground up with modern architecture and enterprise-grade features, it surpasses all existing solutions.
 
 ### 🏆 Key Advantages
 
@@ -34,7 +34,7 @@ npm install shourov-fca
 
 Use a browser extension like **C3C FbState**, **EditThisCookie**, or **Cookie-Editor** to export your Facebook cookies after logging in.
 
-**neokex-fca supports BOTH cookie formats:**
+**shourov-fca supports BOTH cookie formats:**
 
 **Browser Extension Format (Recommended):**
 ```json
@@ -73,7 +73,7 @@ Use a browser extension like **C3C FbState**, **EditThisCookie**, or **Cookie-Ed
 ### 2. Create Your First Bot
 
 ```javascript
-const { login } = require('neokex-fca');
+const { login } = require('shourov-fca');
 const fs = require('fs');
 
 const appState = JSON.parse(fs.readFileSync('appstate.json', 'utf8'));
